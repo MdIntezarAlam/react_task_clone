@@ -1,0 +1,114 @@
+.sec_two {
+    width: 90vw;
+    min-height: 300px;
+    margin-bottom: 30px;
+}
+
+.sec_two_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+.two_heading {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sec_two_heading_btn {
+    width: 200px;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    background-color: #fff;
+    color: gray;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sec_two_box {
+    max-width: 82vw;
+    background-color: rgb(255, 197, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-wrap: wrap;
+
+}
+
+.two_left {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.two_cook {
+    color: rgb(243, 6, 243);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.two_qun {
+    color: rgb(3, 2, 3);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.time {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: violet;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.time_s {
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+
+.two_right {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line_one {
+    width: 5px;
+    height: 100px;
+    color: #fff;
+    background-color: rgb(201, 0, 0);
+    font-size: 22px;
+    bottom: 0;
+    margin: 20px;
+}
+
+.line_one__ {
+    color: rgb(7, 7, 7);
+    font-size: 22px;
+}
+
+@media only screen and (max-width: 600px) {
+    .sec_two_box {
+        display: block;
+    }
+
+}

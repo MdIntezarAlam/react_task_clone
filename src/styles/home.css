@@ -1,0 +1,54 @@
+.home_container {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("../images/h.PNG");
+    background-position: 10% 10%;
+    background-size: cover;
+}
+
+.home {
+    padding: 30px;
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.btn {
+    max-width: 100%;
+    margin-top: 79vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.home_btn_1 {
+    min-width: 200%;
+    background-color: rgb(152, 152, 152);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 15px;
+}
+
+.home_btn_2 {
+    min-width: 60%;
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
