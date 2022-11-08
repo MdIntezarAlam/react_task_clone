@@ -13,7 +13,7 @@ const Details = [
 ]
 
 
-const SectionTwo = ({ cok, duration, time, times }) => {
+const SectionTwo = ({ cok, duration, Time, times }) => {
     const [data, setData] = useState(Details)
 
     return (
@@ -26,7 +26,7 @@ const SectionTwo = ({ cok, duration, time, times }) => {
                 <div className='two_left'>
                     <div className='two_cook'>{cok}</div>
                     <div className='two_qun'>{duration}</div>
-                    <div className='time'>{time}</div>
+                    <div className='time'>{Time}</div>
                     <div className='time_s'>{times}</div>
                 </div>
                 <div className='two_right'>

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import '../../styles/sectionone.css'
 
-
 const data =
     [
         {
@@ -16,44 +15,6 @@ const data =
             heading: "heading ___one",
             image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
         },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-        {
-            heading: "heading ___one",
-            image: "https://i.pinimg.com/736x/d0/7a/f6/d07af684a67cd52d2f10acd6208db98f.jpg"
-        },
-
-
     ]
 
 

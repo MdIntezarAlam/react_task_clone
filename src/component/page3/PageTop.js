@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../../style/page_top.css'
+import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
+
 
 const clockData = [
     { dates: "09", days: "Sun" },
@@ -17,7 +19,10 @@ const PageTop = () => {
 
     return (
         <div className='top3_container'>
-            <h1 className='top3_heading'>Monday 10, May 2022</h1>
+            <div className='page_three_right'>
+                <h1 className='top3_heading'>Monday 10, May 2022</h1>
+                <NotificationsNoneIcon className='svg' />
+            </div>
             <div className='top3_box'>
                 {clocksData.map((item) => (
                     <div className='top3_box_one'>

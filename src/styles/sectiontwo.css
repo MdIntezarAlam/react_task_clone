@@ -1,14 +1,12 @@
 .sec_two {
-    width: 90vw;
-    min-height: 300px;
-    margin-bottom: 30px;
+    /* min-height: 300px; */
 }
 
 .sec_two_head {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
+    padding: 10px;
 }
 
 .two_heading {
@@ -31,21 +29,20 @@
 }
 
 .sec_two_box {
-    max-width: 82vw;
-    background-color: rgb(255, 197, 255);
-    margin: auto;
+    margin:10px auto;
     display: flex;
     justify-content: space-between;
-    border-radius: 10px;
-    flex-wrap: wrap;
+    border-radius: 4px;
+    background-color: rgb(255, 197, 255);
+    padding: 5px;
 
 }
 
 .two_left {
-    width: 200px;
+    width: 50px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -64,7 +61,6 @@
 }
 
 .time {
-    margin-top: 40px;
     margin-bottom: 5px;
     color: violet;
     font-size: 22px;
@@ -72,16 +68,15 @@
 }
 
 .time_s {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     color: #000;
 }
 
 .two_right {
-    flex: 1;
+    flex: 0.5;
     display: flex;
     padding: 20px;
-    gap: 15px;
     justify-content: space-around;
 }
 

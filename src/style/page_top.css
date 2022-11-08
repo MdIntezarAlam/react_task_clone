@@ -1,34 +1,32 @@
 .top3_container {
-    width: 100%;
-    min-height: 200px;
-    /* background-color: rgb(240, 240, 240); */
+    height: 200px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     margin-bottom: 20px;
+    background-color: whitesmoke;
 }
-
+.page_three_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .top3_heading {
-    width: 80vw;
-    font-size: 20px;
-    color: #000;
+    color: rgb(65, 65, 65);
     font-weight: 600;
-    padding: 20px;
-    margin: auto;
+    padding: 25px;
 }
 
 .top3_box {
-    width: 80vw;
     display: flex;
     justify-content: space-between;
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
     align-items: center;
     gap: 3px;
     flex-wrap: wrap;
 }
 
 .top3_box_one {
-    width: 100px;
     height: 120px;
     border-radius: 10px;
     display: flex;

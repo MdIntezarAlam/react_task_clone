@@ -4,8 +4,6 @@ import AppsIcon from '@material-ui/icons/Apps';
 import SyncAltIcon from '@material-ui/icons/SyncAlt';
 import TimerOffIcon from '@material-ui/icons/TimerOff';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
-import { Link } from 'react-router-dom';
-
 
 
 const Footer = () => {
@@ -19,9 +17,7 @@ const Footer = () => {
                     <SyncAltIcon />
                 </div>
                 <div>
-                    <Link to="/page3">
                         <TimerOffIcon />
-                    </Link>
                 </div>
                 <div>
                     <PersonOutlineIcon />

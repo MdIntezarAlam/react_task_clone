@@ -1,7 +1,5 @@
 .top {
     width: 100%;
-    min-height: 100px;
-    /* background-color: rgb(183, 183, 183); */
     display: flex;
     align-items: center;
 }
@@ -9,7 +7,6 @@
 
 .top_box {
     width: 100%;
-    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,8 +21,8 @@
 }
 
 .left_img {
-    width: 100px;
-    height: 90px;
+    width: 80px;
+    height: 70px;
     border-radius: 50%;
     margin-right: 4px;
 }
@@ -42,13 +39,13 @@
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 19px;
     font-weight: 500;
     color: rgb(120, 120, 120);
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 600;
     margin-left: 10px;
 }
@@ -59,7 +56,7 @@ h2 {
 }
 
 .svg {
-  color: gray !important;
+    color: gray !important;
     height: 30px !important;
     font-size: 48px !important;
     cursor: pointer !important;
@@ -67,5 +64,4 @@ h2 {
 
 .MuiSvgIcon-root svg {
     background-color: rgb(158, 88, 88) !important;
-    /* color: rgb(152, 152, 152) !important; */
 }
